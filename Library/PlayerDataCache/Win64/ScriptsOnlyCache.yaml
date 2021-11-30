@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - EquipOutfits
+    - Inventory
     - OpenShop
     - PlayerMovement
     Unity.2D.Animation.Editor.dll:
@@ -12,6 +14,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -47,6 +50,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -95,6 +99,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6368}
     - Class: 114
       Script: {instanceID: 6734}
+    - Class: 114
+      Script: {instanceID: 7224}
+    - Class: 114
+      Script: {instanceID: 46868}
+    - Class: 114
+      Script: {instanceID: 47570}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -484,7 +494,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: e02d60264cda3bde8318c551211e7927
+      Hash: 77ff417ef5fb5279e17bed03ba00ec1a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OpenShop
@@ -754,7 +764,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+      Hash: aac8a8d63f33ca255474f0aa7aa3c997
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMovement
@@ -1058,6 +1068,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 452d67bd455bd9876b0530b0188b672d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Inventory
+  - hash:
+      serializedVersion: 2
+      Hash: b8d215706e290036cc9e8e96bcd80e17
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EquipOutfits
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

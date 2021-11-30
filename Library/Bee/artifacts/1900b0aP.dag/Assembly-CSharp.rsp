@@ -293,6 +293,8 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/EquipOutfits.cs"
+"Assets/Scripts/Inventory.cs"
 "Assets/Scripts/OpenShop.cs"
 "Assets/Scripts/PlayerMovement.cs"
 -langversion:8.0
